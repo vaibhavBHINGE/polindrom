@@ -1,0 +1,16 @@
+<?php
+function polindrom($mystring)
+{$reversing=strrev($mystring);
+if ($reversing==$mystring)
+
+{
+    echo"$mystring is a polindrom.\n";
+
+}
+else {
+    echo"$mystring is a not polindrom.\n";
+}
+}
+polindrom("")
+
+?>
